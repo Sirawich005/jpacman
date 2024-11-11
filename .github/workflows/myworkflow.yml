@@ -95,4 +95,6 @@ jobs:
           message: 'Updated JaCoCo badges'
           add: '.github/badges/*.svg'
     - name: Show test results
+      run: ls -l build/reports/tests/test
+
 
